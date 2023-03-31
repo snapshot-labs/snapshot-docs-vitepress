@@ -1,0 +1,17 @@
+{
+  "name": "snapshot-docs-vitepress",
+  "version": "0.0.1",
+  "description": "Snapshot documentation",
+  "main": "index.js",
+  "author": "Sam <samuv.eth@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.64"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
